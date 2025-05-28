@@ -1,0 +1,20 @@
+version: '3.9'
+services:
+  victim:
+    build: ./victim_app
+    ports:
+      - "5001:5000"
+    extra_hosts:
+    - "cdn.mycorp.internal:192.168.65.2"
+    depends_on:
+      - goodcdn
+
+  goodcdn:
+    build: ./good_server
+    ports:
+      - "80:80"
+
+  badcdn:
+    build: ./attacker_server
+    ports:
+      - "8081:80"
