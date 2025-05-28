@@ -150,3 +150,14 @@ attacker_server/    → Malicious JS with phishing
 docker-compose.yml  → Environment definition
 README.md           → You're reading it
 ```
+
+
+---
+
+## 🛡️ License & Attribution
+
+This project is maintained by **Igor Racic**.
+
+Feel free to use it for educational, demo, or internal testing purposes.  
+For commercial or derivative use, please reach out or attribute appropriately.
+
