@@ -119,7 +119,7 @@ Refresh: [http://localhost:5001](http://localhost:5001) 🚨
 
 ---
 
-## ☁️ Optional: Cloud Variant
+## ☁️ Optional: Cloud Variant will be built for Instruqt and Infoblox with small variation Route53, UDDI etc
 
 Simulate real DNS with Route 53 + EC2:
 
